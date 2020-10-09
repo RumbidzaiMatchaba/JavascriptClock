@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="pomoLoad()">
+    <div id="main-section" >
+        <div id="top-date"></div>
+        <div id="date-time">
+           <div id="clock-date"></div>
+           <div id="clock-milli" > </div>
+        </div>
+       
+        <div id="clock-area">
+            <div id="clock-hour"></div>
+            <div id="clock-minutes"></div>
+        </div>
+        <div id="pomodoro">
+            <button id="pomo-btn" onclick="pomodoro()" onload="pomodoro()">Pomodoro</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
