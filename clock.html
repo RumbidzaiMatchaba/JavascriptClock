@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body onload="startTime()">
+
+ <div id="main-section" >
+     <div id="top-date"></div>
+     <div id="date-time">
+        <div id="clock-date"></div>
+        <div id="clock-milli" > </div>
+     </div>
+    
+     <div id="clock-area">
+         <div id="clock-hour"></div>
+         <div id="clock-minutes"></div>
+     </div>
+     <div id="pomodoro">
+         <button id="pomo-btn" onclick="pomodoro()" >Pomodoro</button>
+     </div>
+ </div>
+ <!-- <script>
+   var t = new Date();
+
+document.getElementById('clock-hour').innerHTML= t.getFullYear();
+ </script>  -->
+     <script src="script.js"></script>
+</body>
+</html>
